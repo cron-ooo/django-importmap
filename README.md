@@ -11,7 +11,7 @@ Quick start
 ```
     INSTALLED_APPS = [
         ...
-        'polls',
+        'importmap',
     ]
  ```
 
