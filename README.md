@@ -20,3 +20,10 @@ Quick start
     ```
     IMPORTMAP_FILE_PATH = os.path.join(BASE_DIR, 'importmap.importmap')
     ```
+
+3. Add variable ``IMPORTMAP_LOCAL_MODULES`` with local modules to your ``settings.py`` module:
+   ```
+   IMPORTMAP_LOCAL_MODULES = {
+       "@/base-container": "js/modules/base-container/index.js",
+   }
+   ```
